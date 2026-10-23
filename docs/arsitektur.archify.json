@@ -10,7 +10,7 @@
     "output": ".archify/architecture-gorute-20261009-0015/arsitektur.html",
     "quality_profile": "showcase",
     "repository": {
-      "url": "https://github.com/bintangfabian/goRute.git",
+      "url": "https://github.com/Wingman-Sprint/goRute.git",
       "provider": "github",
       "link_mode": "web",
       "revision": "d5c50f566d8d668f0ebceae2272f6464fd74d1b5"

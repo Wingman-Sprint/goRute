@@ -103,14 +103,14 @@ flowchart LR
 
 <sub>KODE → DIAGRAM · Peta sistem yang menaut ke baris kodenya</sub>
 
-<a href="https://bintangfabian.github.io/goRute/arsitektur.html">
+<a href="https://wingman-sprint.github.io/goRute/arsitektur.html">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/gambar/arsitektur-gelap.png" />
   <img src="docs/gambar/arsitektur-terang.png" alt="Arsitektur goRute: penumpang memakai PWA, PWA memanggil /api/v1/plan, /places, /stops, dan /geocode di Vercel, function membaca data yang ikut di-deploy, Photon menjadi cadangan pencarian, dan pnpm data:build menyusun data dari GTFS TransJakarta dan OpenStreetMap" />
 </picture>
 </a>
 
-**[Buka diagram interaktif ↗](https://bintangfabian.github.io/goRute/arsitektur.html)** · [telusuri jalur rencana rute ↗](https://bintangfabian.github.io/goRute/arsitektur.html#route=penumpang~data) · [sumber JSON](docs/arsitektur.archify.json)
+**[Buka diagram interaktif ↗](https://wingman-sprint.github.io/goRute/arsitektur.html)** · [telusuri jalur rencana rute ↗](https://wingman-sprint.github.io/goRute/arsitektur.html#route=penumpang~data) · [sumber JSON](docs/arsitektur.archify.json)
 
 Seluruhnya TypeScript dan dirancang jalan gratis di Vercel (plan Hobby). Web app disajikan sebagai file statis, API berjalan sebagai Vercel Functions, dan mesin rute membaca jadwal dari file yang ikut di-deploy. Tidak ada server atau database yang harus selalu nyala.
 
@@ -190,7 +190,7 @@ curl "https://gorute.vercel.app/api/v1/plan?fromLat=-6.2246&fromLon=106.8667&toL
 Butuh Node.js 22.18 atau lebih baru dan pnpm.
 
 ```bash
-git clone https://github.com/bintangfabian/goRute.git
+git clone https://github.com/Wingman-Sprint/goRute.git
 cd goRute
 pnpm install
 pnpm dev

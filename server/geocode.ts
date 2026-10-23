@@ -4,7 +4,7 @@
 import type { PlaceResult } from '../shared/api.ts'
 import { JABODETABEK } from '../shared/region.ts'
 
-const USER_AGENT = 'goRute/0.1 (+https://github.com/bintangfabian/goRute)'
+const USER_AGENT = 'goRute/0.1 (+https://github.com/Wingman-Sprint/goRute)'
 const MAX_RESULTS = 6
 
 /** Places for a query, nearer `near` (the other end of the trip) first; without it, nearer the middle of Jabodetabek. */
